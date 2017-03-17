@@ -6,11 +6,11 @@ Voici simple petit *Helloworld* pour tester le remote debugger intégré de Node
 
 Mon petit pougnon sur NodeJS:
 
-https://drive.google.com/open?id=1CP-EEsOogaE4KcsPEG1qbPTEKvbZ45bNC7m_PyXZMx4
+(https://drive.google.com/open?id=1CP-EEsOogaE4KcsPEG1qbPTEKvbZ45bNC7m_PyXZMx4)
 
 Et une petite vidéo YouTube sans aucune prétention:
 
-https://youtu.be/baNNX4fbvOw
+(https://youtu.be/baNNX4fbvOw)
 
 http://github.com - automatic!
 
