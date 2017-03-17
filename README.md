@@ -12,3 +12,8 @@ Et une petite vidéo YouTube sans aucune prétention:
 
 https://youtu.be/baNNX4fbvOw
 
+http://github.com - automatic!
+
+[GitHub](http://github.com)
+
+
