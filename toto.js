@@ -1,6 +1,6 @@
 //nodejs-hello-world
 //Petit Helloworld en nodejs pour tester le remote debugger
-//zf170317.1744
+//zf170322.1550
 //MIT License
 //Copyright (c) 2017 christian@zufferey.com
 
@@ -14,7 +14,7 @@ var tutu = require("./tutu.js")
 app.get('/', function(req, res) {
     text = ""
     result = titi.tata(33, 3)
-    text = "<p>Hello World! <br> ça marche en remote 1656.<p>"
+    text = "<p>Hello World! <br> ça marche en remote 1458.<p>"
 
     if (result < 18) {
         text += ('<p>Le résultat est: ' + result + "</p>")
@@ -25,9 +25,21 @@ app.get('/', function(req, res) {
     res.send(text)
 })
 
+//route sur URL: http://zuzu123-1:3000/copernic/?toto=123&tutu=234
+app.get('/copernic', function(req, res) {
+    //console.log(res)
+    //res.send("ok")
+    text = ("<p>" + req.url + "</p>")
+    text += "toto: " + req.query.toto + "<br>"
+    text += "tutu: " + req.query.tutu + "<br>"
+    zval = parseFloat(req.query.toto) + parseFloat(req.query.tutu)
+    text += "toto + tutu: " + zval + "<br>"
+    res.send(text)
+})
+
 //route une fichier HTML statique
-app.get('/toto.html', function(req, res) {
-    res.sendFile(path.join(__dirname + '/toto.html'));
+app.get('/tata.html', function(req, res) {
+    res.sendFile(path.join(__dirname + '/tata.html'));
 })
 
 app.listen(3000, function() {
