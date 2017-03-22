@@ -8,8 +8,8 @@ Mon petit [pougnon](https://docs.google.com/document/d/1CP-EEsOogaE4KcsPEG1qbPTE
 
 Et une petite [vidéo YouTube](https://youtu.be/baNNX4fbvOw) sans aucune prétention:
 
-## Installation:
+### Installation:
 npm install
 
-## Utilisation:
+### Utilisation:
 nodemon --inspect toto.js
