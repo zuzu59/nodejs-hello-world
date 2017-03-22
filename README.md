@@ -10,10 +10,10 @@ npm install
 ### Utilisation:
 nodemon --inspect toto.js
 
-### Vidéo
+### Vidéo:
 Et une petite [vidéo YouTube](https://youtu.be/baNNX4fbvOw) sans aucune prétention.
 
-### Goodies
+### Goodies:
 Mon petit [pougnon](https://docs.google.com/document/d/1CP-EEsOogaE4KcsPEG1qbPTEKvbZ45bNC7m_PyXZMx4/edit#heading=h.hs9r2owj8gnm) sur NodeJS.
 
 
