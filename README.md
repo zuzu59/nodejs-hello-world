@@ -5,10 +5,10 @@ Oui, oui, c'est possible simplement de debugger une appli web *backend/frontend*
 Voici simple petit *Helloworld* pour tester le remote debugger intégré de NodeJS
 
 ### Installation:
-npm install
+**``npm install``**
 
 ### Utilisation:
-nodemon --inspect toto.js
+**``nodemon --inspect toto.js``**
 
 ### Vidéo:
 Et une petite [vidéo YouTube](https://youtu.be/baNNX4fbvOw) sans aucune prétention.
